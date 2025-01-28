@@ -16,7 +16,7 @@ import {
     Legend,
 } from "recharts"
 
-const serverUrl = "http://localhost:3000";
+const serverUrl = "localhost:3000";
 
 function CpuUsage() {
     const [TimePeriod, setTimePeriod] = useState(1);
