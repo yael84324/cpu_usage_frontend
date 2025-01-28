@@ -18,7 +18,7 @@ import {
 
 const serverUrl = "http://localhost:3000";
 
-function Home() {
+function CpuUsage() {
     const [TimePeriod, setTimePeriod] = useState(1);
     const [period, setPeriod] = useState('');
     const [ip, setIp] = useState("");
@@ -122,7 +122,7 @@ function Home() {
     )
 }
 
-export default Home;
+export default CpuUsage;
 
 
 

@@ -1,10 +1,10 @@
 
-import Home from './HomePage/Home'
+import CpuUsage from './CpuUsage/index'
 
 function App() {
 
   return (
-    <Home/>
+    <CpuUsage/>
   )
 }
 
