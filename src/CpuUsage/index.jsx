@@ -110,7 +110,7 @@ function CpuUsage() {
                 dataKey="timestamp"
                 type="Date"
                 domain={['auto', 'auto']}
-                tickFormatter={(unixTime) => new Date(unixTime).toLocaleString()}
+                tickFormatter={(unixTime) => new Date(unixTime).toLocaleTimeString(navigator.language, {hour: '2-digit', minute:'2-digit'})}
                />
                 <YAxis 
                 />
